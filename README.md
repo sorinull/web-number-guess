@@ -1,9 +1,12 @@
 # web-number-guess
 Simple web app that generates a random number which the user has to guess in 10 tries
 
+- - - -
 
 Requirements:
-- Create a simple guess the number type game. It should choose a random number between 1 and 100, then challenge the player to guess the number in 10 turns. After each turn the player should be told if they are right or wrong and, if they are wrong, whether the guess was too low or too high. It should also tell the player what numbers they previously guessed. The game will end once the player guesses correctly, or once they run out of turns. When the game ends, the player should be given an option to start playing again.
+> Create a simple guess the number type game. It should choose a random number between 1 and 100, then challenge the player to guess the number in 10 turns. After each turn the player should be told if they are right or wrong and, if they are wrong, whether the guess was too low or too high. It should also tell the player what numbers they previously guessed. The game will end once the player guesses correctly, or once they run out of turns. When the game ends, the player should be given an option to start playing again.
+
+- - - -
 
 Upon looking at this brief, the first thing we can do is to start breaking it down into simple actionable tasks:
 
@@ -13,15 +16,15 @@ Upon looking at this brief, the first thing we can do is to start breaking it do
 4. Once a guess has been submitted first record it somewhere so the user can see their previous guesses.
 5. Next, check whether it is the correct number.
 6. If it is correct:
-	6.1. Display congratulations message.
-	6.2. Stop the player from being able to enter more guesses (this would mess the game up).
-	6.3. Display control allowing the player to restart the game.
+	1. Display congratulations message.
+	2. Stop the player from being able to enter more guesses (this would mess the game up).
+	3. Display control allowing the player to restart the game.
 7. If it is wrong and the player has turns left:
-	7.1. Tell the player they are wrong.
-	7.2. Allow them to enter another guess.
-	7.3. Increment the turn number by 1.
+	1. Tell the player they are wrong.
+	2. Allow them to enter another guess.
+	3. Increment the turn number by 1.
 8. If it is wrong and the player has no turns left:
-	8.1. Tell the player it is game over.
-	8.2. Stop the player from being able to enter more guesses (this would mess the game up).
-	8.3. Display control allowing the player to restart the game.
+	1. Tell the player it is game over.
+	2. Stop the player from being able to enter more guesses (this would mess the game up).
+	3. Display control allowing the player to restart the game.
 9. Once the game restarts, make sure the game logic and UI are completely reset, then go back to step 1.
