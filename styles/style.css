@@ -1,0 +1,56 @@
+html 
+{
+	font-family: sans-serif;
+}
+
+body
+{
+	text-align: justify;
+	min-width: 400px;
+	max-width: 600px;
+	padding: 10px 20px;
+	margin: 0 auto;
+}
+
+.input
+{
+	
+}
+
+.output
+{
+	padding-top: 10px;
+}
+
+.message
+{
+	color: white;
+	padding: 5px 10px;
+	margin: 10px 0px;
+}
+
+.info
+{
+	background-color: gray;
+}
+
+.warning
+{
+	background-color: red;
+}
+
+.success
+{
+	background-color: green;
+}
+
+.gameOver
+{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.hidden
+{
+	display: none;
+}
